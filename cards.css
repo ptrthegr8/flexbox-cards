@@ -16,6 +16,10 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    width: 10px;
+    
 }
 
 .card__description {
@@ -54,15 +58,19 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    margin: auto;
+    width:40em; /*Added for to better match picture*/
+    
   }
 
     .cardGroup__card {
       /* */
-      flex-grow: 1;
+      flex-grow: .5;
       flex-shrink: 0;
-      flex-basis: 1;
+      flex-basis: 100px;
       /**/
-
+      
+      height: 200px;
       border: none;
       border-radius: 0;
     }
@@ -75,6 +83,6 @@ html {
       /**/
       flex-grow: 1;
       flex-shrink: 0;
-      flex-basis: 1; 
+      flex-basis: auto; 
       /**/
     }
